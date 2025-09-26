@@ -10,7 +10,7 @@ class HomeController extends BaseController
 {
     public function index(): void
     {
-       dd('hi');
-        $this->view('home');
+
+        $this->view('front.home');
     }
 }
